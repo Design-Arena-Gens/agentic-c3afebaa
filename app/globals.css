@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; background: #0b1020; color: #e8eefb; }
+.container { max-width: 980px; margin: 0 auto; padding: 32px 20px; }
+.card { background: #121a36; border: 1px solid #1b2852; border-radius: 14px; padding: 24px; box-shadow: 0 4px 24px rgba(0,0,0,0.25); }
+.h1 { font-size: 28px; font-weight: 700; margin: 0 0 8px; }
+.muted { color: #9fb0d7; margin: 0 0 24px; }
+.dropzone { border: 2px dashed #2b3d7d; border-radius: 12px; padding: 28px; text-align: center; cursor: pointer; background: #0e1630; }
+.dropzone:hover { background: #111a3a; }
+.files { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.badge { background: #1a2756; color: #cde0ff; padding: 6px 10px; border-radius: 9999px; font-size: 12px; border: 1px solid #2a3c7c; }
+.actions { display: flex; gap: 12px; margin-top: 16px; }
+.button { background: #2c72ff; color: white; border: none; padding: 12px 16px; border-radius: 10px; cursor: pointer; font-weight: 600; }
+.button.secondary { background: #1a2756; border: 1px solid #2a3c7c; color: #cde0ff; }
+.result { background: #0f1732; border: 1px solid #1b2852; border-radius: 12px; padding: 16px; overflow: auto; }
+.code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; white-space: pre; color: #c5e4ff; }
+.grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+}
+.link { color: #86b7ff; text-decoration: none; }
+.link:hover { text-decoration: underline; }
